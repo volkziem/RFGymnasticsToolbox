@@ -1,6 +1,8 @@
 # RFGymnasticsToolbox
 Bunch manipulations with the radio-frequency system of a particle accelerator
 
+**Important:** this package requires the elliptic package from https://github.com/moiseevigor/elliptic located in a subdirectory below the present one!
+
 Check out the following papers for the theory behind the code
   - V. Ziemann, *Longitudinal phase-space matching between radio-frequency systems with different harmonic numbers and accelerating voltages,*
     FREIA Report 2021-06, December 2021; see also [arXiv:2112.14085](https://arxiv.org/abs/2112.14085), December 2021;
