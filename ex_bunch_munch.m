@@ -18,7 +18,7 @@ bunch_munch_schedule=[
   sigma_transport();
   linear_transport();
   init_dist(h1,v1,phi0,-3);
-  show_distribution(); 
+  show_distribution(1,0,0); 
   2, 70, h1, v1,   0, 0.01; 
   2, 25, h1, vhat, 0, 0.01; 
   2, 25, h1, v1,   0, 0.01; 

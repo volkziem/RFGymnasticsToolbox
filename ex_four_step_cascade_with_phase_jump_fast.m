@@ -24,7 +24,7 @@ four_step_cascade_schedule=[
 % save_fwhm();
 % start_movie(20);
   init_dist(h1,v1,sigphi0,-3);
-  show_distribution(); 
+  show_distribution(1,0,0); 
   2, 1, h1, v1,   0, 0.1; 
   2, 1, h2, vhat2,0, 0.25; 
   2, 1, h2, v2,   0, 0.1;

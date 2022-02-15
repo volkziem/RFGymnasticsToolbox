@@ -20,7 +20,7 @@ one_step_transfer_schedule=[
   sigma_transport();
   linear_transport();
   init_dist(h1,v1,sigphi0,-3);     
-  show_distribution(); 
+  show_distribution(1,0,0); 
   2, 50, h1, v1,   0, 0.01;     % equilibrium beam stay unchanged
   2, 25, h3, v2a,  0, 0.01;     % transfer on h2, eq.17
 %  2, 25, h1, v2b,  0, 0.01;     % transfer on h1, eq.18

@@ -16,7 +16,7 @@ rebunching_schedule=[
   start_movie(20);
   set_adiabatic(10000);
   init_dist(h1,v1,sigphi0,-3);
-  show_distribution(); 
+  show_distribution(1,0,0); 
   prop_adiabatic(h1,v1,-0.005,0); % slow adiabatic reduction of voltage
   prop_adiabatic(h2,0,0.005,v2);  % increase again on h2 
   2, 20, h2,v2,0,0.01;            % 
