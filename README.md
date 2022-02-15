@@ -20,6 +20,7 @@ explained below on this page.
   - **ex_four_step_cascade_with_phase_jump_fast.m**, the same as the previous, but without intermediate steps;
   - **ex_filamentation.m**, example of bunch filamentation;
   - **ex_rebunching_simulation.m**, debunch on first harmonic and rebunch on a higher harmonis.
+  - **ex_spider.m**, make short bunches in adjacent buckets.
 
 ## Support files
  
