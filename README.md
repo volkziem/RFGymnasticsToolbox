@@ -7,9 +7,13 @@ Check out the following papers for the theory behind the code
   - V. Ziemann, *Longitudinal phase-space matching between radio-frequency systems with different harmonic numbers and accelerating voltages,*
     FREIA Report 2021-06, December 2021; see also [arXiv:2112.14085](https://arxiv.org/abs/2112.14085);
   - V. Ziemann, *RF gymnastics with transfer matrices*, FREIA Report 2022-03, February 2022; see also [arXiv:2202.03964](https://arxiv.org/abs/2202.03964).
+ 
+The following image shows the result of a simulation using the full non-linear equations in red, using the linearized equations in green, and using the beam matrix propagation, described in the second report, in blue.
+
+  ![simulation](sched6_003.png)
 
 ## Examples
-The following example define a sequence of commands, such as creating a distribution, propagating a distribution, and displaying it, 
+The following examples each define a sequence of commands, such as creating a distribution, propagating a distribution, and displaying it, 
 which is called a **schedule**. Check out the examples, most of the commands are reasonably self-explanatory. All commands are 
 explained below on this page.
   - **ex_one_step_transfer.m**, quarter-wave transfer from h1,v1 to h2,v2 via one intermediate state;
